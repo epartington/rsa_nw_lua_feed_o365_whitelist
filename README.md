@@ -18,3 +18,7 @@ first two are used as feeds in NetWitness with the included xml files
 url output is used to update the lua parser which does the url matching and wildcard checking.
 
 the script keeps a tracker in the temp dir of what the latest version is and if there are any changes (also generates a clientID for you).
+lua_O365.lua reads from alias.host and writes to filter metakeys (as well as the feeds)
+
+filter='whitelist'
+filter='office365'
