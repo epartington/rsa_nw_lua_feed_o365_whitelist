@@ -113,12 +113,12 @@ if ($version.latest -gt $lastVersion) {
     Write-Output "IPv4 Firewall IP Address Ranges"
     #($flatIps.ip | Sort-Object -Unique) -join "," | Out-String
     #($flatIps.ip | Sort-Object -Unique) -join ",$rsa_name`n" | Out-String
-    ($flatIps.ip | Sort-Object -Unique) -join ",whitelist,$rsa_name`n" | Tee-Object -FilePath $Filepath"o365ipv4Out.txt"
+    ($flatIps.ip | Sort-Object -Unique) -join ",whitelist,$rsa_name`n" | Tee-Object -FilePath $Filepath"o365ipv4Out.csv"
 	
 	Write-Output "IPv6 Firewall IP Address Ranges"
     #($flatIps6.ip | Sort-Object -Unique) -join "," | Out-String
     #($flatIps6.ip | Sort-Object -Unique) -join ",$rsa_name`n" | Out-String
-    ($flatIps6.ip | Sort-Object -Unique) -join ",whitelist,$rsa_name`n" | Tee-Object -FilePath $Filepath"o365ipv6Out.txt"
+    ($flatIps6.ip | Sort-Object -Unique) -join ",whitelist,$rsa_name`n" | Tee-Object -FilePath $Filepath"o365ipv6Out.csv"
 
     Write-Output "URLs for Proxy Server"
     #($flatUrls.url | Sort-Object -Unique) -join "," | Out-String
