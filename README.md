@@ -1,6 +1,7 @@
 # rsa_nw_lua_feed_o365_whitelist
 whitelisting Office365 traffic using Lua and Feeds
 
+https://community.rsa.com/community/products/netwitness/blog/2018/08/14/lua-whitelisting-office365-traffic
 
 Data and sample script come from here
 https://support.office.com/en-gb/article/managing-office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ui=en-US&rs=en-GB&ad=GB#ID0EACAAA=4._Web_service
